@@ -1,0 +1,265 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color:#F2F2F2;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+}
+
+.websitename {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #020302;
+  font-weight: bold;
+  font-size: 4.0em;
+}
+
+.mainh1 {
+  margin:10px;
+  font-weight: bold;
+  font-size: 2.0em;
+}
+
+#interestsec, #resumesec, #portfoliosec {
+  margin:40px;
+}
+
+#introducesec p, #introducesec ol, #introducesec li{
+  text-align: left;
+  margin-left:40px;
+}
+
+.introduceh2 {
+  margin-left:58px;
+  margin-bottom: 25px;
+  padding: 10px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size:3.0em;
+  background-color: #EDD8BC;
+  color: #ffffff;
+  width: 60px;
+}
+
+.contacth2 {
+  margin: 20px;
+  background-color: #444444;
+  padding: 2px;
+  color: #ffffff;
+  font-size:2.0em;
+}
+
+.interesth2, .resumeh2, .portfolioh2 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  margin: 20px;
+  background-color: #E0CCC4;
+  padding: 2px;
+  color: #ffffff;
+  font-size:2.0em;
+}
+
+.interest {
+  margin: 0px;
+}
+
+aside#right {
+  padding: 0px;
+  width: 33%;
+  float: left;
+}
+
+aside#center {
+  padding: 0px;
+  width: 33%;
+  float: left;
+}
+
+aside#left {
+  width: 33%;
+  float: left;
+}
+
+header {
+  height: 100px;
+  margin: 45px;
+  padding: 55px;
+}
+
+nav {
+  background-color: #444444;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  border-top: 2px solid #7C7C7C;
+  border-bottom: 2px solid #7C7C7C;
+  padding: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  height: 100px;
+  clear: both;
+  background-position: top center;
+  background-repeat: repeat-x;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.indexmain {
+  background-color: #EAEAEA;
+  margin-left:20px;
+  margin-right:20px;
+  padding:30px;
+  height: 670px;
+}
+
+.portfoliomain {
+  background-color: #EAEAEA;
+  padding:30px;
+  height: 70%;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.resumemain {
+  background-color: #ffffff;
+  margin-left:10%;
+  margin-right:10%;
+  padding:30px;
+  height: 70%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#resumename{
+  text-align: right;
+}
+
+#resumeeducation {
+  text-align: left;
+  margin-top: 5%;
+}
+
+#resumeexperience {
+  text-align: left;
+  margin-top: 5%;
+}
+
+#resumeskills {
+  text-align: left;
+  margin-top: 5%;
+}
+
+#resumelanguage {
+  text-align: left;
+  margin-top: 5%;
+}
+
+#firstproject, #thirdproject  {
+  margin-top: 5%;
+  text-align: left;
+  border-color: #9E9E9E;
+  border-radius: 1px;
+  border-width: thin;
+  border-style: dashed;
+  padding: 20px;
+}
+
+#secondproject {
+  margin-top: 5%;
+  text-align: right;
+  border-color: #9E9E9E;
+  border-radius: 1px;
+  border-width: thin;
+  border-style: dashed;
+  padding: 20px;
+}
+
+.portfolioh3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  background-color: #E0CCC4;
+  padding: 7px;
+  color: #ffffff;
+}
+
+#portfoliomain {
+  font-size: 1.1em;
+}
+
+.portfolioleft {
+  margin-top: 10px;
+  margin-left:20px;
+  margin-bottom: 15px;
+}
+
+.portfolioright {
+  margin-top: 10px;
+  margin-right:20px;
+  margin-bottom: 15px;
+}
+
+.image1 img{
+  width:200px;
+  height:200px;
+  margin-left:20px;
+}
+
+.image2 img{
+  width:200px;
+  height:200px;
+  margin-right:20px;
+}
+
+.image3 img{
+  width:500px;
+  height:300px;
+  margin-left:20px;
+}
+
+.exp, .edu, .ski, .lan{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+main ul {
+  list-style: none;
+}
+
+main li {
+  list-style: none;
+}
+
+.indexvideo video{
+  width:90%; 
+  height:100%;
+}
+
+#map {
+  height: 600px;
+  width: 70%;
+  font-size: 25px;
+  text-align: left;
+}
